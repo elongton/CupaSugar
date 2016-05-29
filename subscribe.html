@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Subscribe</title>
+		<link rel="shortcut icon" type="image/png" href="website_media/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="lib/css/subscribe.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:600,400' rel='stylesheet' type='text/css'>
+		
+		 <link rel="stylesheet" href="lib/css/jquery-ui.css">
+		 <script src="lib/js/jquery-1.10.2.js"></script>
+		 <script src="lib/js/subscribe.js"></script>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-73180123-1', 'auto');
+		  ga('send', 'pageview');
+		</script>	
+
+	</head>
+	<body>
+		<form id = "subscribeform" name = "subscribeform" action = "subscribe.php" method= "post">
+			<div style = "background-image: url('website_media/subscribe_header.jpg');" id = "div_topbanner">
+				<div id = "header_title"><a href = "home.html">Cup-a' Sugar Delivery</a></div>
+			</div>
+					
+			<div id = "div_pickyourplan">
+				<div class = "subscriptions" id = "left_subscription">
+					
+					<div class = "subscription_img"><img src="website_media/NormalSubscription.png"></div>
+					<div class = "bulletlist">
+						<ul>
+							<li>3 deliveries</li>
+							<li>$15/month</li>
+							<li>No Savings</li>
+							<li>3 Items per delivery</li>
+						</ul>
+					</div>
+					<input type="checkbox" name="chk1" value="Plan1" id = "chk1" class = "chkbox">	
+				<br>
+				<div class = "planselectbutton" id = "3deliveries">Practical</div>
+				
+				</div>
+	
+				<div class = "subscriptions">
+				<div class = "subscription_img"><img class = "subscription_img" src="website_media/SuperSubscription.png"></div>
+				<div class = "bulletlist">	
+					<ul>
+						<li>5 deliveries</li>
+						<li>$20/month</li>
+						<li>20% Savings</li>
+						<li>3 Items per delivery</li>
+					</ul>
+				</div>
+				<input type="checkbox" name="chk2" value="Plan2" id = "chk2" class = "chkbox">		
+				<br>
+				<div class = "planselectbutton" id = "5deliveries">Forgetful</div>
+				</div>
+				<div class = "subscriptions">
+				<div class = "subscription_img"><img class = "subscription_img" src="website_media/UltraSubscription.png"></div>
+				<div class = "bulletlist">	
+					<ul>
+						<li>10 deliveries</li>
+						<li>$25/month</li>
+						<li>50% Savings!</li>
+						<li>4 Items per delivery</li>
+					</ul>
+				</div>
+				<input type="checkbox" name="chk3" value="Plan3" id = "chk3" class = "chkbox">	
+				<br>
+				<div class = "planselectbutton" id = "10deliveries">You Wanted Eggs!?</div>
+				<div id = "div_bestvalue"><img src="website_media/BestValue.png"></div>
+				</div>
+
+			</div>
+			
+
+			
+			<div id = "div_orderform">
+				<div id = "div_invisiblock"></div>
+				<div class = "inputdiv" id ="div_member">
+					<div class = "title">Become a Member</div>
+					
+
+						<input type="email" name="email" placeholder = "Email Address">
+						<input type="password" name="password" placeholder = "Password">
+						<input type="password" name="password2" placeholder = "Retype Password">
+				</div>
+				
+				<div class = "inputdiv" id ="div_shipping">
+							
+					<div class = "title" id = "div_shippingtitle">Where should we deliver?</div>
+					<input type="text" name="firstname" placeholder = "First Name">
+					<input type="text" name="lastname" placeholder = "Last Name">
+					<input type="text" name="addressline1" placeholder = "Address Line 1">		
+					<input type="text" name="addressline2" placeholder = "Address Line 2">
+					<input type="text" name="city" placeholder = "City">
+					<select id = "states" name = "state">
+						<option value selected="selected">State</option>
+						<option value="AL">Alabama</option>
+						<option value="AK">Alaska</option>
+						<option value="AZ">Arizona</option>
+						<option value="AR">Arkansas</option>
+						<option value="CA">California</option>
+						<option value="CO">Colorado</option>
+						<option value="CT">Connecticut</option>
+						<option value="DE">Delaware</option>
+						<option value="DC">District Of Columbia</option>
+						<option value="FL">Florida</option>
+						<option value="GA">Georgia</option>
+						<option value="HI">Hawaii</option>
+						<option value="ID">Idaho</option>
+						<option value="IL">Illinois</option>
+						<option value="IN">Indiana</option>
+						<option value="IA">Iowa</option>
+						<option value="KS">Kansas</option>
+						<option value="KY">Kentucky</option>
+						<option value="LA">Louisiana</option>
+						<option value="ME">Maine</option>
+						<option value="MD">Maryland</option>
+						<option value="MA">Massachusetts</option>
+						<option value="MI">Michigan</option>
+						<option value="MN">Minnesota</option>
+						<option value="MS">Mississippi</option>
+						<option value="MO">Missouri</option>
+						<option value="MT">Montana</option>
+						<option value="NE">Nebraska</option>
+						<option value="NV">Nevada</option>
+						<option value="NH">New Hampshire</option>
+						<option value="NJ">New Jersey</option>
+						<option value="NM">New Mexico</option>
+						<option value="NY">New York</option>
+						<option value="NC">North Carolina</option>
+						<option value="ND">North Dakota</option>
+						<option value="OH">Ohio</option>
+						<option value="OK">Oklahoma</option>
+						<option value="OR">Oregon</option>
+						<option value="PA">Pennsylvania</option>
+						<option value="RI">Rhode Island</option>
+						<option value="SC">South Carolina</option>
+						<option value="SD">South Dakota</option>
+						<option value="TN">Tennessee</option>
+						<option value="TX">Texas</option>
+						<option value="UT">Utah</option>
+						<option value="VT">Vermont</option>
+						<option value="VA">Virginia</option>
+						<option value="WA">Washington</option>
+						<option value="WV">West Virginia</option>
+						<option value="WI">Wisconsin</option>
+						<option value="WY">Wyoming</option>
+					</select>				
+					<input type="text" name="zipcode" placeholder = "Zipcode" maxlength = "5" id = "input_zipcode">
+
+				</div>
+
+				<div class = "inputdiv" id ="div_billinginfo">
+							
+					<div class = "title">Billing Info</div>
+					<div class="demo-container">
+						<div class="card-wrapper"></div>
+						<div class="form-container active">
+<!-- 							<form id = "myform" action=""> -->
+								<input placeholder="Card number" type="text" name="number">
+								<input placeholder="Full name" type="text" name="name">
+								<input placeholder="MM/YY" type="text" name="expiry">
+								<input placeholder="CVC" type="text" name="cvc">
+							<!-- </form> -->
+						</div>
+					</div>
+					<script src="lib/js/card.js"></script>
+					<script>
+						new Card({
+							form: document.querySelector('#subscribeform'),
+							container: '.card-wrapper'
+						});
+					</script>
+
+				</div>
+				
+				
+				<div class = "inputdiv" id = "div_bill">
+				
+					<div class = "div_left">
+						<span>Subtotal</span>
+						<br>
+						<span>Tax</span>
+						
+						</div>
+					<div class = "div_right">
+					<span id = "span_subtotal">$0.00</span>
+					<br>
+					<span>$0.00</span>
+					</div>
+					
+					
+					<div id = "div_separator">
+						<hr>
+					</div>
+					
+					<div class = "div_left">
+						<span>Total</span>
+					</div>
+					<div class = "div_right">
+						<span id = "span_total">$0.00</span>
+					</div>
+				</div>
+				
+				<div class = "inputdiv" id = "div_disclaimer">
+				<br>
+				<br>
+				<span>* * * * * * * * * * *</span>
+				<br>
+				<span>
+				<i>By clicking &#34;Purchase&#34;, you confirm you accept that your membership will automatically renew on a monthly basis and your credit card will automatically be charged the applicable monthly subscription fee until you cancel your membership. You can cancel your membership at any time via the phone application.</i>
+				</span>
+				
+
+				<div class = "button_purchase" id = "div_purchasebutton"><div>Purchase</div></div>
+				
+				</div>
+				<input type="text" name="plan" id = "input_plan">
+				
+		</form>
+				
+			
+			
+	</body>
+	
+	
+</html>

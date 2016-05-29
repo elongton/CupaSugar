@@ -1,0 +1,393 @@
+html{
+	overflow-x:hidden;
+}
+
+body{
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+
+}
+
+div {
+display: block;
+}
+
+
+a:link{
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+
+
+.button_purchase{
+width: 300px;
+height: 60px;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.button_purchase div{
+width: 100%;
+height: 100%;
+background-color: #62C2CC;
+font-size: 40px;
+color: white;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+line-height: 60px;
+}
+
+
+/********Button Styling*************/
+	.planselectbutton{
+	width: 300px;
+	height: 60px;
+	background-color: #62C2CC;
+	font-size: 40px;
+	color: white;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	line-height: 60px;
+	text-align: center;
+	font-family: 'Damion', cursive;
+	font-weight: normal;
+	margin-left: calc(50% - 150px);
+	}
+
+	.chkbox{
+	visibility: hidden;
+	}
+/************************************/
+
+
+
+#div_purchasebutton{
+padding-left: 200px;
+margin-left: -150px;
+margin-top: 25px;
+
+}
+
+.subscriptions{
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 25px;
+	width: 30%;
+	max-width: 450px;
+/* 	border: 1px dashed black; */
+	
+}
+
+.subscription_img{
+	width: 100%;
+
+}
+.subscription_img img{
+	width: 100%;
+
+}
+
+
+.bulletlist{
+	
+/* 	border: 1px dashed black; */
+	width: 300px;
+	margin-left: calc(50% - 150px);
+	
+}
+
+.title{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+	position: relative;
+	padding-top: 20px;
+	
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.inputdiv{
+	position: relative;
+/* 	border: 1px dashed black; */
+	width: 400px;
+	height: 400px;
+	margin-left: 50%;
+	left: -200px;
+	text-align: center;
+}
+
+
+.card-wrapper{
+/* 	border: 1px solid black; */
+	padding-bottom: 20px!important;
+	
+}
+
+
+#input_plan{
+	visibility:hidden;
+}
+
+
+
+#div_topbanner{
+display: block;
+position: relative;
+z-index: 10;
+height: 5em;
+background-image: url("subscribe_header.jpg");
+background-size: cover;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+text-align: center;	
+
+}
+
+#header_title{
+	color: black;
+	font-family: 'Damion', cursive;
+	font-size: 2.6em;
+	padding-top: 10px;
+}
+
+#header_title a{
+	color: black;
+}
+
+#div_pickyourplan{
+position: relative;
+z-index: 9;
+height: 17em;
+background-color: #2D4D67;
+
+/* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); */
+text-align: center;
+white-space: nowrap;
+}
+
+#div_bestvalue{
+width: 175px;
+position: absolute;
+/* left: 30px;
+top: 20px; */
+
+margin-left: 65px;
+margin-top: 30px;
+z-index: 1000;
+visibility: hidden;
+}
+
+#div_bestvalue img{
+width: 100%;
+}
+
+
+#div_orderform{
+position: relative;
+z-index: 8;
+height: 135em;
+background-color: #D5DBE1;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+text-align: center;
+}
+
+	#div_invisiblock{
+
+		position: relative;
+		width: 400px;
+		margin-left: 50%;
+		left: -200px;
+		text-align: center;
+		height: 390px;
+
+	}
+	
+	/* FORM CONTAINERS */
+
+	#div_member{
+		height: 200px;
+	}
+
+	#div_shipping{
+			width: 500px;
+			left: -250px;
+	}
+	
+	#div_shipping, #div_member{
+		text-align: left;
+	}
+	
+	#div_shippingtitle{
+		width: 100%;
+	}
+
+	#div_shipping input, #div_member input{
+		width: 250px;
+		height: 30px;
+		margin: 10px auto;
+		display: block;
+		border-radius: 3px;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	#div_billinginfo{
+		text-align: left;
+		height: 35em;
+	}
+	
+
+
+	#div_bill{
+		/* border: 3px solid red; */
+		font-size: 25px;
+		font-family: 'Open Sans', sans-serif;
+		line-height: 50px;
+		height: 190px;
+	}
+		.div_left{
+			/* border:1px dashed black; */
+			float: left;
+			width: 40%;
+			height: 100px;
+			text-align: right;
+			
+		}
+		.div_right{
+			/* border:1px dashed black; */
+			float:right;
+			width: 40%;
+			height: 100px;
+			text-align: left;
+		}
+		#div_separator{
+			/* border:1px dashed black; */
+			clear: both;
+			width: 100%;
+			height: 20px;
+			line-height: 10px;
+		}
+		
+		#div_disclaimer span{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+		}
+		
+		
+	#states{
+		width: 250px;
+		height: 30px;
+		margin: 10px auto;
+		display: block;
+		border-radius: 3px;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+
+	.demo-container {
+		width: 100%;
+		max-width: 350px;
+		margin: auto;
+	}
+	.demo-container form{
+		margin: 30px;
+	}
+	.demo-container input{
+		width: 250px;
+		height: 30px;
+		margin: 10px auto;
+		display: block;
+		border-radius: 3px;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+	}
+		
+
+		
+		
+		
+
+/*--------------------------------------------------------------
+## 14.1 - Desktop Ultra ( < 1486px )
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1486px) {
+
+
+.subscription_img{
+	width: 350px;
+	margin-left: calc(50% - 175px);
+	margin-top: 30px;
+}
+
+}
+
+/*--------------------------------------------------------------
+## 14.1 - Desktop Large ( < 1166px )
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1166px) {
+
+.subscription_img{
+	width: 300px;
+	margin-left: calc(50% - 150px);
+	margin-top: 40px;
+}
+
+
+.planselectbutton{
+width: 230px;
+height: 60px;
+font-size: 30px;
+line-height: 60px;
+margin-left: calc(50% - 100px);
+}
+
+
+
+.bulletlist{
+	
+	width: 240px;
+	margin-left: calc(50% - 120px);
+	font-size: 20px;
+}
+
+}
+
+
+/*--------------------------------------------------------------
+## 14.1 - Desktop Large ( < 961px )
+--------------------------------------------------------------*/
+@media only screen and (max-width: 961px) {
+
+.subscriptions{
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 280px;
+}
+
+
+.inputdiv{
+	margin-left: 473px;
+}
+
+
+#header_title{
+	margin-left: 275px;
+	width: 400px;
+}
+
+
+#left_subscription{
+	
+	margin-left: 20px;
+}
+
+}
+
+

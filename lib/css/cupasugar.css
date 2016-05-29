@@ -1,0 +1,849 @@
+html{
+	overflow-x:hidden;
+}
+
+body{
+ margin-top: 0px;
+ margin-right: -10px;
+ margin-bottom: 0px;
+ margin-left: 0px;
+}
+div {
+display: block;
+}
+a:link{
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+
+/* ********************CLASS DEFINITIONS *************/
+
+.button_getstarted{
+width: 300px;
+height: 60px;
+font-family: 'Damion', cursive;
+}
+
+.button_getstarted div{
+width: 100%;
+height: 100%;
+background-color: #71889A;
+font-size: 40px;
+color: white;
+/* box-shadow: 5px 5px 10px black; */
+line-height: 60px;
+}
+
+.button_getstarted div:hover{
+background-color: #2D4D67;
+}
+
+.title{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 60px;
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 35px;
+	color: #2D4D67;
+}
+
+.iPhone_samples{
+	
+	display: inline-block;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 2em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	width: 27%;
+	max-width: 500px;
+	color: #2D4D67;
+	/* border: 1px dashed black;	 */
+}
+
+.iPhone_samples div{
+	width: 100%;
+}
+
+.iPhone_samples div img {
+	width: 100%;
+	max-width: 350px;
+}
+
+
+.iPhone_samples section{
+	/* border: 1px dashed black; */
+	white-space: nowrap;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.iPhone_samples section span{
+	font-family: 'Damion', cursive;
+	font-weight: normal;
+	font-size: 35px;
+}
+
+.subscription_wrapper{
+margin-top: 50px;
+display: inline-block;
+text-align: center;
+width: 27%;
+margin-left: .5%;
+margin-right: .5%;
+/* border: 1px dashed black; */
+}
+
+.subscriptions{
+	display: inline-block;
+	/* margin-top: 25px; */
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 25px;
+	font-weight: bold;
+	width: 200px;
+	color: #2D4D67;
+	/* border: 1px dashed black; */
+	margin-left: -10px;
+}
+
+.div_subscriptiontitle{
+	text-align: center;
+	/* border: 1px dashed black; */
+	font-family: 'Damion', cursive;
+	font-size: 40px;
+	color: #2D4D67;
+}
+
+.subscriptions div{
+	text-align: center;
+
+}
+
+.subscription_img{
+	width: 100%;
+	max-width: 350px;
+	/* border: 1px dashed black; */
+}
+
+.stores{
+	display:inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+/* ********************HEADER AREA *******************/
+
+#div_header{
+/* border: 1px dashed black; */
+position: absolute;
+background-color: white;
+text-align: center;
+height: 640px;
+width:100%;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+z-index: 100;
+}
+
+
+	
+#header_image1, #header_image2, #header_image3, #header_image4{ 
+		max-width: 1715px; 
+		height: 640px; 
+		background-size: cover;
+		background-position: center;
+		clip: rectangle(10px 20px 30px 40px);
+	}
+	
+#header_image2, #header_image3, #header_image4{
+	display: none;
+}	
+	
+
+	#div_white{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 500px;
+	height: 40em;
+	margin-left: 10%;
+	background-color: rgba(255,255,255,0.4);
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	text-align: center;
+	}
+		#div_tagline{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 150px;
+		margin-top: 7em;
+		text-align: center;
+		}
+		
+		#div_tagline span{
+		color: white;
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 3em;
+		}
+		
+		#div_offer{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 50px;
+		margin-top: 19em;
+		text-align: center;
+		background-color: white;
+		}
+		#div_offer span{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 30px;
+		line-height: 55px;
+		}
+		
+		#div_offertext{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 50px;
+		margin-top: 25em;
+		text-align: center;
+		}
+		#div_offertext span{
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 30px;
+		line-height: 47px;
+		}
+		
+		#div_headerbutton{
+		padding-left: 50%;
+		margin-left: -150px;
+		margin-top: 33em;
+		}
+	
+	#div_title{
+		position:absolute;
+		top:0;
+		left:0;
+		height: 20em;
+		width: 600px;
+		margin-left: 50%;
+		margin-top: 10em;
+		text-align: center;
+	}
+	#div_title span{
+		color: white;
+		font-family: 'Damion', cursive;
+		font-size: 5.5em;
+		font-size-adjust: 0.58;
+		text-shadow: 0 0 20px #2D4D67;
+	}
+	
+	
+/* ********************CONTENT AREA *******************/
+	
+	
+#content{
+	top: 640px;
+	position: relative;
+	}	
+	
+	#div_howitworks {
+	position: relative;
+	z-index: 13;
+	background-color: white;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5), 0px -5px 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	white-space: nowrap;
+	padding-bottom: 100px;
+	}
+		#div_howitworkstitle{
+
+		}
+		#div_descriptionhowitworks{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 30px;
+			color: #71889A;
+			white-space: normal;
+		}
+		#div_howitworksbutton{
+			position: relative;
+			padding-left: 50%;
+			margin-left: -150px;
+			margin-top: 70px;
+		}
+
+	#div_pickyourplan{
+	position: relative;
+	z-index: 12;
+	background-color: white;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	white-space: nowrap;
+	padding-bottom: 100px;
+	}
+	
+		#div_backdropribbon, #div_backdropribbon1, #div_backdropribbon2, #div_backdropribbon3{
+			position: absolute;
+			/* border: 1px dashed black; */
+			height: 130px;
+			width: 100%;
+			z-index: -1;
+			margin-top: 335px;
+			background-color: #2D4D67;
+			
+		}
+	
+		#div_subscribedescription, #div_subscribedescription2{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 30px;
+		color: #71889A;
+/* 		padding-bottom: 30px; */
+		/* border: 1px dashed black; */
+		}
+		
+		
+		
+		
+		
+		
+		#div_pickyourplanbutton{
+		padding-left: 50%;
+		margin-left: -150px;
+		margin-top: 20px;
+		}
+	
+	#div_participating {
+	position: relative;
+	z-index: 2;
+/* 	min-height: 20em; */
+	background-color: white;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding-bottom: 75px;
+	line-height: 100px;
+	/* visibility: hidden; */
+
+	}
+	
+		#div_participatingdescription{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 30px;
+		color: #71889A;
+		margin-bottom: 40px;
+		white-space: normal;
+		}
+		
+		#div_availabilitytitle{
+			padding-bottom: 30px;
+		}
+		#foodlion{
+			width: 100px;
+		}		
+		#foodlion img{
+		width: 100%;
+		}
+		
+		#walmart{
+			width: 250px;
+		}
+		#walmart img{
+		width: 100%;
+		}
+		
+		#kroger{
+		width:150px;
+		}
+		#kroger img{
+		width: 100%;
+		}
+		
+		#ellwood{
+		width: 200px;
+		}
+		#ellwood img{
+		width: 100%;
+		}
+		
+		#wholefood{
+			width: 150px;
+		}
+		#wholefood img{
+		width: 100%;
+		}
+		
+		#martins{
+		width: 200px;
+		}
+		#martins img{
+		width: 100%;
+		}
+		
+		#freshmarket{
+			width:100px;
+		}
+		#freshmarket img{
+		width: 100%;
+		}
+		
+
+		#div_availabilitybutton{
+		position: relative;
+		padding-left: 50%;
+		margin-left: -150px;
+		margin-top: 70px;
+
+		}
+		#div_availabilitybutton div{
+		background-color: #EEF66C;
+		color: black;
+		}
+		
+		#div_availabilitybutton div:hover{
+		background-color: green;
+		}
+		
+	#div_footer {
+	position: relative;
+	z-index: 1;
+	height: 5em;
+	background-color: white;
+	text-align:center;
+	}
+		#div_disclaimer{
+			font-family: 'Open Sans', sans-serif;
+			font-weight: bold;
+			font-size: 20px;
+			padding-top: 30px;
+			color: #2D4D67;
+			margin-bottom: 20px;
+			
+		}
+
+/*--------------------------------------------------------------
+# 14.0 - Media Queries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## 14.1 - Desktop Huge ( > 1803px )
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1803px) {
+
+	#div_white{
+	margin-left: calc(50% - 700px);
+	}
+
+}
+
+/*--------------------------------------------------------------
+## 14.1 - Desktop Large ( < 1120px )
+--------------------------------------------------------------*/
+@media only screen and (max-width: 1120px) {
+
+.iPhone_samples{
+	
+	display: inline-block;
+	margin-top: 1em;
+	font-size: 18px;
+}
+
+.iPhone_samples img{
+	
+	width: 100%;
+	max-width: 250px;
+}
+
+.subscriptions{
+	display: inline-block;
+	margin-top: 50px;
+/* 	margin-left: .5em;
+	margin-right: .5em; */
+	text-align: left;
+	font-size: 20px;
+}
+.subscriptions div{
+	text-align: center;
+	width: 200px;
+}
+.subscription_img{
+	width: 240px;
+}
+
+.stores{
+	display:inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#div_header{
+height: 30em;
+
+}
+
+#header_image1{ 
+		display: none;
+	}
+
+#header_image2{
+	display: inline;
+	max-width: 1715px; 
+	height: 480px; 
+}
+	
+	
+#div_title{
+	position:absolute;
+	top:0;
+	left:0;
+	height: 20em;
+	width: 500px;
+	margin-left: 48%;
+	margin-top: 9em;
+	text-align: center;
+}
+#div_title span{
+	color: white;
+	font-size: 4.3em;
+}	
+#div_white{
+
+	width: 400px;
+	height: 30em;
+	margin-left: 5em;
+	}
+		#div_tagline{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 150px;
+		margin-top: 4em;
+		text-align: center;
+		}
+		#div_tagline span{
+		color: white;
+		font-size: 40px;
+		}
+		#div_offer{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 50px;
+		margin-top: 13em;
+		text-align: center;
+		background-color: white;
+		}
+		#div_offer span{
+		font-size: 25px;
+		line-height: 47px;
+		}
+		#div_offertext{
+		position: absolute;
+		top:0;
+		left:0;
+		width: 100%;
+		height: 50px;
+		margin-top: 17em;
+		text-align: center;
+		}
+		#div_offertext span{
+		font-size: 25px;
+		line-height: 35px;
+		}
+		#div_headerbutton{
+		padding-left: 50%;
+		margin-left: -150px;
+		margin-top: 23em;
+		}
+	/* ********************CONTENT AREA *******************/
+#content{
+	top: 480px;
+	position: relative;
+	}	
+	#div_howitworks {
+	position: relative;
+	}
+	
+	#div_backdropribbon{
+		height: 90px;
+		margin-top: 340px;
+	}
+	
+	#div_pickyourplan{
+	position: relative;
+	}
+		
+		
+		
+		#foodlion{
+			width: 75px;
+		}		
+		#walmart{
+			width: 180px;
+		}
+		#kroger{
+		width:110px;
+		}
+		#ellwood{
+		width: 150px;
+		}
+		#wholefood{
+			width: 125px;
+		}
+		#martins{
+		width: 130px;
+		}
+		#freshmarket{
+			width:100px;
+		}
+}
+
+
+/*--------------------------------------------------------------
+## 14.4 - Mobile Devices
+--------------------------------------------------------------*/
+/* @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { */
+
+@media only screen and (max-width: 880px){
+		
+.iPhone_samples{
+	display: inline;
+	font-size: 18px;
+}
+
+.subscriptions{
+	display: initial;
+	margin-top: 60px;
+/* 	margin-left: 1em;
+	margin-right: 1em; */
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.subscription_wrapper{
+display: inline;
+/* border: 1px dashed black; */
+width: 100px;
+}
+
+.subscriptions div{
+	text-align: center;
+	font-size: 30px;
+
+}
+
+.subscriptions ul{
+width: 190px;
+text-align: left;
+margin-left: calc(50% - 95px);
+}
+
+.title{
+	font-size: 45px;
+	position: relative;
+	line-height: 70px;
+	padding-top: 50px;
+}
+
+.stores{
+	display:inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#div_header{
+height: 30em;
+background-color: black;
+
+}
+
+#header_image2{ 
+		display: none;
+	}
+
+#header_image3{
+	display: inline;
+	max-width: 1715px; 
+	height: 480px; 
+}
+
+#div_title{
+	position:absolute;
+	top:0;
+	left:0;
+	height: 20em;
+	width: 500px;
+	padding-left: 50%;
+	margin-left: -250px;
+	margin-top: 2em;
+	text-align: center;
+}
+
+
+#div_title span{
+	color: white;
+	font-size: 3.4em;
+}	
+
+#div_white{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 320px;
+	height: 30em;
+	left: 50%;
+	margin-left: -160px;
+	text-align: center;
+	}
+
+		#div_tagline{
+		visibility: hidden;
+		}
+
+	/* ********************CONTENT AREA *******************/
+	
+#content{
+	top: 30em;
+	position: relative;
+	}	
+	
+	#div_howitworks {
+	position: relative;
+	}
+
+		#div_descriptionhowitworks{
+			font-size: 18px;
+			line-height: 30px;
+			width: 100%;
+			padding-right: 20px;
+			text-align: center;
+		}
+
+		#div_howitworksbutton{
+			position: relative;
+			padding-left: 50%;
+			margin-left: -150px;
+			margin-top: 50px;
+		}
+	/*  */
+	/*  */
+	#div_pickyourplan{
+	position: relative;
+	white-space: normal;
+	}
+	
+		#div_subscribedescription{
+			padding-bottom: 25px;
+		}	
+
+		#div_backdropribbon{
+			visibility: hidden;
+		}
+
+		#div_backdropribbon1{	
+			height: 90px;
+			visibility: visible!important;
+			margin-top: 40px;
+		}
+		
+		
+		
+		#div_backdropribbon2{
+			height: 90px;
+			visibility: visible!important;
+			margin-top: 40px;
+		}
+
+		#div_backdropribbon3{
+			height: 90px;
+			visibility: visible!important;
+			margin-top: 40px;
+		}
+
+	#div_participating {
+	position: relative;
+	line-height: 40px;
+	white-space: nowrap;
+	}
+	
+	#div_availabilitytitle{
+	
+	white-space: initial;
+	}
+
+		#foodlion{
+			width: 11%;
+		}	
+		#walmart{
+			width: 25%;
+		}
+		#kroger{
+			width:14%;
+		}
+		#ellwood{
+			width: 20%;
+		}
+		#wholefood{
+			width: 15%;
+		}
+		#martins{
+			width: 18%;
+		}
+		#freshmarket{
+			width:9%;
+		}
+		#participating_break{
+			display: block !important;
+		}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	
+body{
+	padding-right: 10px;
+}	
+	
+	
+#header_image3{ 
+	display: none;
+}
+
+#header_image4{
+	display: inline;
+	max-width: 1715px; 
+	height: 480px; 
+}
+	
+#div_white{
+		background-color: rgba(255,255,255,0);
+}
+
+#div_offer{
+	height: 110px;
+	background-color: rgba(255,255,255,0.45);
+}
+
+#div_offertext{
+	margin-top: 15.6em;
+	line-height: 6px;
+}
+
+}	
